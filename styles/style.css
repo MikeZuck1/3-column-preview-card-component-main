@@ -87,6 +87,13 @@ body {
 
 /* ======== ICONS - À TRAVAILLER!!!!! ======== */
 
+.icons {
+    margin-top: 40px;
+}
+.icons, .cars-content {
+    margin-top: 40px;
+    margin-left: 50px;
+}
 
 /* ======== CONTENT CARS ======== */
 .cars-content {
@@ -98,13 +105,15 @@ body {
     color: hsla(0, 0%, 100%, 0.75);
 }
 .cars-content p {
+    margin-top: 20px;
     font-size: 15px;
     line-height: 25px;
 }
 
 /* ======== BUTTONS ======== */
 .button button {
-    margin-top: 30px;
+    margin-top: 100px;
+    margin-left: 50px;
     background-color: #fff;
     width: 35%;
     padding: 10px;
