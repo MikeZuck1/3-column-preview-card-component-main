@@ -28,7 +28,7 @@
 
 /* - Font size: 15px */
 
-/* ### Font */
+/* ### Font */ 
 
 /* - Family: [Lexend Deca](https://fonts.google.com/specimen/Lexend+Deca) */
 /* - Weights: 400 */
@@ -43,7 +43,7 @@
     padding: 0;
 }
 
-/* ========  ======== */
+/* ======== BODY ======== */
 body {
     display: flex;
     align-items: center;
@@ -52,42 +52,82 @@ body {
     background-color: hsl(0, 0%, 95%);
 }
 
-/* ========  ======== */
+/* ======== CONTAINER ======== */
 .container { 
     display: flex; 
     align-items: center; 
     justify-content: center; 
 
-} 
+}
 
-/* ========  ======== */
-.sedan-box, 
+/* ======== BOX CARS COINTAINER ======== */
+.sedans-box, 
 .suvs-box, 
 .luxury-box {
     display: inline-block;
 }
 
-.sedan-box {
+.sedans-box {
     width: 400px;
     height: 500px;
-    background-color:  hsl(31, 77%, 52%);
+    background-color:hsl(31, 77%, 52%); 
 }
 
 .suvs-box {
     width: 400px;
     height: 500px;
-    background-color:  hsl(184, 100%, 22%) ;
+    background-color:hsl(184, 100%, 22%);
 }
 
 .luxury-box {
     width: 400px;
     height: 500px;
-    background-color:  hsl(179, 100%, 13%);
+    background-color:hsl(179, 100%, 13%);
 }
 
-/* ========  ======== */
+/* ======== ICONS - À TRAVAILLER!!!!! ======== */
+
+
+/* ======== CONTENT CARS ======== */
+.cars-content {
+    width: 53%; 
+}
+
+.cars-content h1, p {
+    font-family: "roboto", sans-serif;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+.cars-content p {
+    font-size: 15px;
+    line-height: 25px;
+}
+
+/* ======== BUTTONS ======== */
+.button button {
+    margin-top: 30px;
+    background-color: #fff;
+    width: 35%;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+} 
+
+#sedans  {
+    color: hsl(31, 77%, 52%);
+}
+
+#suvs {
+    color: hsl(184, 100%, 22%);
+}
+#luxury {
+    color: hsl(179, 100%, 13%);
+}
+
+/* ======== FOOTER INFORMATION ======== */
 .attribution { 
-    font-size: 11px; text-align: center; 
+    font-size: 11px; 
+    text-align: center; 
 }
 
 .attribution a { 
